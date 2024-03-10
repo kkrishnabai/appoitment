@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment Booking Form</title>
+</head>
+<body>
+    <h2>Book an Appointment</h2>
+    <form action="submit_form.php" method="post">
+        <label for="name">Your Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        
+        <label for="email">Your Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        
+        <label for="doctor">Select Doctor:</label><br>
+        <select id="doctor" name="doctor" required>
+            <option value="Dr. Smith">Dr. Smith</option>
+            <option value="Dr. Johnson">Dr. Johnson</option>
+            <!-- Add more doctors if needed -->
+        </select><br>
+        
+        <label for="date">Preferred Date:</label><br>
+        <input type="date" id="date" name="date" required><br>
+        
+        <label for="time">Preferred Time:</label><br>
+        <input type="time" id="time" name="time" required><br>
+        
+        <input type="submit" value="Book Appointment">
+    </form>
+</body>
+</html>
