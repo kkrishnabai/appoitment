@@ -1,10 +1,10 @@
 <?php
 // Fetch form data
-$name = $_GET['name'];
-$email = $_GET['email'];
-$doctor = $_GET['doctor'];
-$date = $_GET['date'];
-$time = $_GET['time'];
+$name = $_POST['name'];
+$email = $_POST['email'];
+$doctor = $_POST['doctor'];
+$date = $_POST['date'];
+$time = $_POST['time'];
 
 // Email subject
 $subject = "Appointment Confirmation";
